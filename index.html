@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Evelin Romero v5</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="master">
+        <header >
+            <div class="logo">
+                <img src="img/logo.svg" alt="Logo">
+            </div>
+            <input type="checkbox" name="menu" id="menu" />
+            <div class="buttons">
+                <label for="menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+            <ul>
+                <li><a href="#episodios">Episodios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#invitados">Entrevistas</a></li>
+                <li><a href="#temas">Tópicos</a></li>
+            </ul>
+        </header>
+
+        <!-- SECCION BANNER -->
+        <div class="container_title">
+            <h1>Hello <span class="tachado"> world</span> <span class="text_palet">pale blue dot</span><span class="punto">.</span></h1>
+                <p class="text_desktop">El portal de podcasts que explora el mundo de la programación y</p> 
+                <p class="text_desktop"> la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+                <p class="text_mobile">Un podcasts que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+                <button onclick="location.href='#nosotros'" type="button">CONOCÉ MÁS</button>
+        </div>
+    
+        <main>
+            <!-- SECCION EPISODIOS -->
+            <section class="container_episodios" id="episodios">
+                <h2 class="subtitle">Episodios</h2>
+                <div class="diagonal">
+                    <div class="podcasts">
+                        <iframe class="pod" src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" allow="encrypted-media"></iframe>
+                        <iframe class="pod" src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" allow="encrypted-media"></iframe>
+                        <iframe class="pod" src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" allow="encrypted-media"></iframe>
+                        <iframe class="pod" src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECCION NOSOTROS -->
+
+            <section class="container_nosotros" id="nosotros">
+                <img src="img/phone.png" alt="telefono">
+                <div class="nosotros_text">
+                    <h2 class="subtitle_venimos_desktop">De donde venimos</h2>
+                    <h2 class="subtitle_venimos_mobile">De donde</h2>
+                    <h2 class="subtitle_venimos_mobile">venimos</h2>
+                    <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+                    <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+                </div>
+            </section>
+            
+            <!-- SECCION INVITADOS -->
+
+            <section class="container_invitados" id="invitados">
+                <h2 class="subtitle">Invitadas/os estelares</h2>
+            <div class="invitados_img">
+                <img class="efecto" src="img/grace-hopper.png" alt="">
+                <img class="efecto" src="img/Katie-Bouman.png" alt="">
+                <img class="efecto" src="img/Margaret_Hamilton.png" alt="">
+                <img class="efecto" src="img/An E.R.A.Univac 1103 computer in the 1950s.png" alt="">
+                <img class="efecto" src="img/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="">
+                <img class="efecto" src="img/susan-kare.png" alt="">
+            </div>
+            </section>
+            
+            <!-- SECCION TEMAS -->
+            <section class="container_temas" id="temas">
+                <h2 class="subtitle">Algunos de nuestros temas</h2>
+                <div class="temas_icons">
+                    <div>
+                        <img class="efecto" src="img/icon1.svg" alt="remoto">
+                        <p>Trabajo remoto</p>
+                    </div>
+                    <div>
+                        <img class="efecto" src="img/icon2.svg" alt="repensando">
+                        <p>Repensando la programación</p>
+                    </div>
+                    <div>
+                        <img class="efecto" src="img/icon3.svg" alt="codigo">
+                        <p>Bases del código</p>
+                    </div>
+                    <div>
+                        <img class="efecto" src="img/icon4.svg" alt="seguridad informática">
+                        <p>Seguridad informática</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECCION NOVEDADES-->
+            <section class="container_novedades">
+                <h2 class= "text_novedades">¿Querés las últimas novedades?</h2>
+                <button onclick="location.href='#episodios'" type="button">ESCUCHÁ LOS EPISODIOS</button>
+            </section>
+
+        </main>
+        <!-- SECCION FOOTER-->
+        <footer class="copy">
+            <p>2019- Hello blue pale dot</p>
+            <div class="icons">
+                <a href="https://www.spotify.com/us/" target="_blank"><i class="fab fa-spotify efecto"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram efecto"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter efecto"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook efecto"></i></a>
+                <a href="https://desktop.telegram.org/" target="_blank"><i class="fab fa-telegram efecto"></i></a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
